@@ -1,0 +1,11 @@
+input {
+    min-width: 100px;
+    max-width: 120px;
+}
+eleme-table {
+    width: auto;
+    max-width: 550px;
+}
+input:read-only {
+    border-color: #ff0000;
+}

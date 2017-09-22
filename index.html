@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>外卖计算器</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="js/eleme.js"></script>
+    <link rel="stylesheet" href="css/eleme.css">
+</head>
+
+<body>
+<table class="am-table am-table-compact eleme-table">
+    <thead>
+    <tr>
+        <td>
+            <button id="addEater" class="am-btn am-btn-default">+添加食客</button>
+        </td>
+        <td>食物</td>
+        <td>价格</td>
+        <td>权重</td>
+        <td>实际支出</td>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>总计</td>
+        <td>&nbsp;</td>
+        <td><span id="total">0</span></td>
+        <td>&nbsp;</td>
+        <td><span id="realtotal">0</span></td>
+    </tr>
+
+    </tfoot>
+</table>
+<div class="am-form-inline">
+    <label>公共支出:<input type="number" id="expand" placeholder="填写公共支出"/></label>
+    <label>优惠:<input type="number" id="discount" placeholder="填写优惠金额"/></label>
+</div>
+</body>
+
+</html>
